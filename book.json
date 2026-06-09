@@ -1,0 +1,50 @@
+{
+  "root": "./docs",
+  "title": "OpenBMC AST2700 知识库",
+  "description": "AST2700-default BSP 完整代码分析",
+  "author": "OpenBMC Deep Learning System",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "Home": "https://github.com/aspeedtech-bmc/openbmc-knowledge"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css",
+    "pdf": "styles/pdf.css"
+  },
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-three",
+    "-highlight",
+    "github-buttons",
+    "anchors",
+    "expandable-chapters-small",
+    "copy-code-button",
+    "page-toc-button"
+  ],
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "aspeedtech-bmc",
+          "repo": "openbmc-knowledge",
+          "type": "star"
+        },
+        {
+          "user": "aspeedtech-bmc",
+          "repo": "openbmc-knowledge",
+          "type": "watch",
+          "count": true
+        }
+      ]
+    },
+    "anchor": {
+      "permalink": true,
+      "permalinkSymbol": "#"
+    }
+  }
+}

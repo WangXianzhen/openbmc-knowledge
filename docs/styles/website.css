@@ -1,0 +1,71 @@
+/* GitBook 自定义样式 */
+.book .book-body .page-wrapper .page-content {
+  max-width: 900px;
+}
+
+.markdown-section {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.markdown-section h1 {
+  font-size: 2.2em;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.markdown-section h2 {
+  font-size: 1.6em;
+  color: #667eea;
+  margin-top: 30px;
+}
+
+.markdown-section h3 {
+  font-size: 1.3em;
+  color: #764ba2;
+}
+
+.markdown-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.markdown-section table th,
+.markdown-section table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.markdown-section table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.markdown-section table tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.markdown-section code {
+  background: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Source Code Pro', monospace;
+}
+
+.markdown-section pre {
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.markdown-section pre code {
+  background: transparent;
+  color: #d4d4d4;
+}
+
+/* 深色模式支持 */
+.book.color-theme-2 .markdown-section table th {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
